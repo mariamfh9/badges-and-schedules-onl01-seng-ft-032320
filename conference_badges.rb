@@ -6,20 +6,20 @@ end
 def batch_badge_creator(array_names)
   array_badge = []
   array_names.each do |name|
-    newarray.push("Hello, my name is #{name}.")
+    array_badge.push("Hello, my name is #{name}.")
   end
-  return newarray
+  return array_badge
 end
 
 
 def assign_rooms(array)
-  newarray = []
+  array_badge = []
   counter = 1
   array.each do |name|
-    newarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+    array_badge.push("Hello, #{name}! You'll be assigned to room #{counter}!")
     counter += 1
   end
-  return newarray
+  return array_badge
 end
 
 def printer(array)

@@ -5,29 +5,26 @@ end
 
 
 
-def batch_badge_creator(array)
-  nuarray = []
-  array.each do |name|
-    nuarray.push("Hello, my name is #{name}.")
+def batch_badge_creator(array_names)
+  newarray = []
+  array_names.each do |name|
+    newarray.push("Hello, my name is #{name}.")
   end
-  return nuarray
+  return newarray
 end
 
-# batch_badge_creator(people)
 
 
 
 def assign_rooms(array)
-  nuarray = []
+  newarray = []
   counter = 1
   array.each do |name|
-    nuarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+    newarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
     counter += 1
   end
-  return nuarray
+  return newarray
 end
-
-# assign_rooms(people)
 
 def printer(array)
   batch_badge_creator(array).each do |id|

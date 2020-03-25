@@ -3,6 +3,7 @@ def badge_maker(name)
   badges = []
   counter = 0
   while counter < badges.length-1
+  badges << name
   return "Hello, my name is " + badges[counter] + " ."
   end
 end 

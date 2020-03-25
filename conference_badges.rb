@@ -1,6 +1,10 @@
 # Write your code here.
 def badge_maker(name)
- return "Hello, my name is #{name}."
+ badges = []
+ counter = 0
+ while counter < badges.length-1
+ badges << name 
+ return "Hello, my name is #{badges[counter]}"
 end
 
 
